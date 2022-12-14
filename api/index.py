@@ -39,7 +39,7 @@ def handle_message(event):
     if event.message.type != "text":
         return
 
-    if event.message.text == "公威阿":
+    if event.message.text == "公威":
         working_status = True
         line_bot_api.reply_message(
             event.reply_token,
